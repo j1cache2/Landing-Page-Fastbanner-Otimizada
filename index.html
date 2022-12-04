@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/icon32x32.webp" type="image/x-icon">
+    <title>Fastbanner</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <section class="menu-top">
+        <div class="container1">
+            <a href="index.html"><img src="images/logo.webp" alt="logo"></a>
+            <nav>
+                <ul>
+                    <li><a href="#products">Produtos</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#assessments">Avaliações</a></li>
+                    <li><a href="#affiliated">Afiliado</a></li>
+                    <li><a href="#aboutus">Sobre nós</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="menu-top-mobile">
+        <div class="container1">
+            <a href="index.html"><img src="images/logo.webp" alt="logo"></a>
+            <div class="toggle" onclick="myFunction()"></div>
+        </div>
+    </section>
+    <section class="menu-top-mobile-active">
+        <nav>
+            <ul>
+                <li><a href="#products" onclick="remove()">Produtos</a></li>
+                <li><a href="#services" onclick="remove()">Serviços</a></li>
+                <li><a href="#assessments" onclick="remove()">Avaliações</a></li>
+                <li><a href="#affiliated" onclick="remove()">Afiliado</a></li>
+                <li><a href="#aboutus" onclick="remove()">Sobre nós</a></li>
+                <li><a href="#contact" onclick="remove()">Contato</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="produtos">
+        <div class="container2">
+            <div class="container3">
+                <div class="container4">
+                    <h2>Fastbanner - Impressões Incríveis & Sucesso!</h2>
+                    <h1>Oportunidade de negócio com os melhores equipamentos do mercado</h1>
+                    <p>Com nossos equipamentos de impressão e recorte, podemos realizar uma infinidade de produtos e
+                        serviços.</p>
+                    <p class="secondp">Tire suas dúvidas com a nossa equipe de vendas e compre ainda hoje o equipamento
+                        que você precisa.
+                    </p>
+                    <form>
+                        <input class="fastbanner-cadastro-nome" type="text" id="nome" required="true" placeholder="Nome"
+                            name="name">
+                        <input class="fastbanner-cadastro-email" type="email" id="email" required="true"
+                            placeholder="Email" name="email">
+                        <!-- <input class="fastbanner-cadastro-telefone" type="number" id="numero" required="true"
+                            placeholder="WhatsApp" name="numero"> -->
+                        <input class="fastbanner-cadastro-telefone" type="text" id="numero" required="true"
+                            placeholder="WhatsApp" name="numero">
+                        <input class="fastbanner-btn" type="submit" value="ENVIAR">
+                    </form>
+                </div>
+            </div>
+            <div class="container3-mobile">
+                <div class="container4">
+                    <h2>Fastbanner<br>Impressões Incríveis & Sucesso!</h2>
+                    <h1>Oportunidade de negócio com os melhores equipamentos do mercado</h1>
+                    <p>Com nossos equipamentos de impressão e recorte, podemos realizar uma infinidade de produtos e
+                        serviços.</p>
+                    <p class="secondp">Tire suas dúvidas com a nossa equipe de vendas e compre ainda hoje o equipamento
+                        que você precisa.
+                    </p>
+                    <form>
+                        <input class="fastbanner-cadastro-nome" type="text" id="nome" required="true" placeholder="Nome"
+                            name="name">
+                        <input class="fastbanner-cadastro-email" type="email" id="email" required="true"
+                            placeholder="Email" name="email">
+                        <!-- <input class="fastbanner-cadastro-telefone" type="number" id="numero" required="true"
+                            placeholder="WhatsApp" name="numero"> -->
+                        <input class="fastbanner-cadastro-telefone" type="text" id="numero" required="true"
+                            placeholder="WhatsApp" name="numero">
+                        <input class="fastbanner-btn" type="submit" value="ENVIAR">
+                    </form>
+                </div>
+            </div>
+            <div class="container5">
+                <div class="container6">
+                    <ul>
+                        <li class="garantia">
+                            <img src="images/garantia.webp" alt="garantia">
+                            <p>Garantia de 2 anos</p>
+                        </li>
+                        <li class="treinamento">
+                            <img src="images/treinamento.webp" alt="treinamento">
+                            <p>Treinamento e<br>instalação gratuitos</p>
+                        </li>
+                        <li class="custo-beneficio">
+                            <img src="images/custo.webp" alt="custo-benefício">
+                            <p>Melhor<br>custo-benefício</p>
+                        </li>
+                        <li class="pecas">
+                            <img src="images/pecas.webp" alt="peças">
+                            <p>Peças de reposição a<br>pronta entrega</p>
+                        </li>
+                        <li class="suporte">
+                            <img src="images/suporte.webp" alt="suporte">
+                            <p>Suporte remoto e<br>presencial</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container7" id="products">
+                <h2>Confira nossos produtos</h2>
+                <ul>
+                    <li>
+                        <img src="images/1.webp" alt="Plotter">
+                        <p>Plotters de impressão</p>
+                    </li>
+                    <li>
+                        <img src="images/2.webp" alt="Plotter">
+                        <p>Plotters de recorte</p>
+                    </li>
+                    <li>
+                        <img src="images/3.webp" alt="Tinta">
+                        <p>Tintas</p>
+                    </li>
+                    <li>
+                        <img src="images/4.webp" alt="Peças e acessórios">
+                        <p>Peças e acessórios</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="servicos" id="services">
+        <h2>Serviços</h2>
+        <div class="boxes1">
+            <div class="box-content1">
+                <div class="item1">
+                    <img class="img1" src="images/minha-primeira-plotter.webp" alt="Plotter">
+                    <p>O programa Minha Primeira Plotter conta com um financiamento especial direto com a Fastbanner,
+                        sem burocracia. Temos taxas de juros reduzidas e prazos de pagamento estendidos, para você que
+                        ainda não tem uma plotter de impressão.
+                    </p>
+                    <a class="button" href="#">SAIBA MAIS</a>
+                </div>
+            </div>
+            <div class="box-content2">
+                <div class="item2">
+                    <img class="img1" src="images/fast-consorcios.webp" alt="Fast Consórcios">
+                    <p>Com a Fast Consórcios você adquire um equipamento de qualidade de uma forma muito mais simples e
+                        inteligente, sem precisar pagar juros e IOF. São diversas oportunidades para te atender da
+                        melhor forma!
+                    </p>
+                    <a class="button" href="#">SAIBA MAIS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="avaliacoes" id="assessments">
+        <h2>Avaliações</h2>
+        <div class="boxes2">
+            <div class="box-content1">
+                <img class="img1" src="images/possebom.webp" alt="Possebom">
+                <div class="item1">
+                    <h3>Gráfica Possebom</h3>
+                    <p class="plocal">Catanduva - SP</p>
+                    <div class="ig">
+                        <a href="https://www.instagram.com/graficapossebon/" target="_blank">
+                            <img src="images/ig.svg" alt="instagram">
+                        </a>
+                    </div>
+                    <div class="rate">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                    </div>
+                    <p>“Comprei o equipamento modelo start com nobreak através do consórcio contemplado Fastbanner, até
+                        agora só alegria, gosto muito do equipamento e recomendo a Fastbanner.”</p>
+                </div>
+            </div>
+            <div class="box-content2">
+                <img class="img2" src="images/grafica-certa.webp" alt="Gráfica Certa">
+                <div class="item2">
+                    <h3>Gráfica Certa</h3>
+                    <p class="plocal">Nova Iguaçu - RJ</p>
+                    <div class="ig">
+                        <a href="https://www.instagram.com/graficavcerta/" target="_blank"><img src="images/ig.svg"
+                                alt="instagram">
+                        </a>
+                    </div>
+                    <div class="rate">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                    </div>
+                    <p>“Comprei o equipamento modelo Start em 2016 e adquiri outra agora em Janeiro de 2021 para
+                        aumentar a minha produção, hoje tenho amizade com os proprietários da Fastbanner e quero
+                        muito
+                        abrir uma unidade aqui em Nova Iguaçu-RJ.”</p>
+                </div>
+            </div>
+            <div class="box-content3">
+                <img class="img3" src="images/idealize-cv.webp" alt="Idealize Comunicação Visual">
+                <div class="item3">
+                    <h3>Idealize Comunicação Visual</h3>
+                    <p class="plocal">Macapá - AP</p>
+                    <div class="ig">
+                        <a href="https://www.instagram.com/idealize__comunicacao_visual/" target="_blank"><img
+                                src="images/ig.svg" alt="instagram">
+                        </a>
+                    </div>
+                    <div class="rate">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                        <img src="images/star.webp" alt="estrela">
+                    </div>
+                    <p>“Muito satisfeito com o equipamento da Fastbanner, estou em Macapá e ajudou bastante a
+                        alavancar
+                        a minha empresa, recomendo.”</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="afiliado" id="affiliated">
+        <h2>Afiliado</h2>
+        <div class="boxes3">
+            <div class="box-content1">
+                <div class="item1">
+                    <img class="img3" src="images/fastbannerroad-branco.webp" alt="Fastbanner Road">
+                    <p>Abandone de vez a CLT e tenha lucros altos e a liberdade que você sempre sonhou!</p>
+                    <p>A Fastbanner Road te capacita para o mercado de impressoras digitais para que você atue como
+                        representante técnico e comercial da Fastbanner na sua região.
+                    </p>
+                    <a class="button" href="#">SAIBA MAIS</a>
+                </div>
+            </div>
+            <div class="box-content2">
+                <div class="item2">
+                    <img class="img3" src="images/fastbannerpartnerwbg.webp" alt="Fastbanner Partner">
+                    <p>Seja nosso parceiro oficial e tenha sempre uma renda extra!</p>
+                    <p>A Fastbanner Partner é o nosso programa de afiliados, onde você consegue faturar altos
+                        comissionamentos divulgando e vendendo os produtos e serviços da Fastbanner.</p>
+                    <a class="button" href="#">SAIBA MAIS</a>
+                </div>
+            </div>
+            <div class="box-content3">
+                <div class="item3">
+                    <img class="img3" src="images/fastbannerprint.webp" alt="Fastbanner Print">
+                    <p>Seja um franqueado e tenha a autonomia financeira que você sempre sonhou!</p>
+                    <p>A Fastbanner Print é um dos nossos modelos de franquias no qual você pode ter uma loja de
+                        impressão completa contendo todos os equipamentos e materiais necessários para um excelente
+                        trabalho.</p>
+                    <a class="button" href="#">SAIBA MAIS</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sobrenos" id="aboutus">
+        <h2>Sobre nós</h2>
+        <p>A Fastbanner nasceu em 2016 com o objetivo de atender o mercado de sublimação e comunicação visual em geral,
+            com isso o CEO, Guilherme Donatoni, fechou um contrato de exclusividade com um dos melhores fabricantes
+            dessa tecnologia, visando oferecer equipamentos robustos, estáveis e de qualidade pelo melhor custo
+            benefício no Brasil.</p>
+        <p>Em 2020, a empresa iniciou o processo de expansão com novos produtos e serviços para quem busca entrar nessa
+            área. Hoje a Fastbanner caminha para ser a número um na venda de plotters de impressão digital atendendo
+            todo o território nacional com vendas em diversos canais.</p>
+        <a class="button" href="#">CONHEÇA A FASTBANNER</a>
+    </section>
+    <section class="contato" id="contact">
+        <h2>Informações de Contato</h2>
+        <div class="container1">
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14910.381509639044!2d-51.3731554!3d-20.8883531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x65eac2be3b1be3d9!2sFastbanner!5e0!3m2!1spt-BR!2sbr!4v1669685264806!5m2!1spt-BR!2sbr"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <ul>
+                <li>
+                    <img src="images/icon-localizacao.webp" alt="Localização">
+                    <a href="https://goo.gl/maps/qYwa4mKeJ9mrWKvY7" target="_blank">
+                        <p>Endereço: Rua Professora Aracy Ventura Gomes, 640</p>
+                    </a>
+                </li>
+                <li>
+                    <img src="images/icon-telefone.webp" alt="Telefone">
+                    <p>Telefone: (18) 2122-3583</p>
+                </li>
+                <li>
+                    <img src="images/icon-email.webp" alt="Email">
+                    <p>E-mail: fastbannerbr@gmail.com</p>
+                </li>
+                <li>
+                    <img src="images/icon-relogio.webp" alt="Relógio">
+                    <p>Horário: Segunda à Sexta 8h30 até 12h / 13h30 até 17h00</p>
+                </li>
+                <li class="ig">
+                    <a href="https://www.instagram.com/fastbannerbr/" target="_blank"><img src="images/ig.svg"
+                            alt="instagram"></a>
+                </li>
+                <li class="fb">
+                    <a href="https://www.facebook.com/fastbannerbrasil" target="_blank"><img src="images/fb.svg"
+                            alt="facebook"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="rodape">
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li>|</li>
+                <li><a href="#">Termos & Condições</a></li>
+                <li>|</li>
+                <li><a href="#">Termos de
+                        Compras</a></li>
+                <li>|</li>
+                <li><a href="#">Política de Reembolso</a></li>
+                <li>|</li>
+                <li>CNPJ:
+                    08.993.215/0001-62</li>
+            </ul>
+        </div>
+        <div class="rodape-mobile">
+            <ul>
+                <li><a href="#">Política de Privacidade</a></li>
+                <li><a href="#">Termos & Condições</a></li>
+                <li><a href="#">Termos de
+                        Compras</a></li>
+                <li><a href="#">Política de Reembolso</a></li>
+                <li>CNPJ:
+                    08.993.215/0001-62</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>Todos os direitos reservados | Desenvolvido por <a href="https://www.instagram.com/joao.luisrm/"
+                target="_blank" class="externo">@joao.luisrm</a></p>
+    </footer>
+
+    <script type="text/javascript">
+        function myFunction() {
+            const menutoggle = document.querySelector('.toggle');
+            const menuactive = document.querySelector('.menu-top-mobile-active');
+            
+            if (menuactive.style.display === "block") {
+                menuactive.style.display = "none";
+                menutoggle.classList.toggle('active');
+                } 
+            else {
+                menuactive.style.display = "block";
+                menutoggle.classList.toggle('active');
+            }
+        };
+
+        menutoggled = document.querySelector('.toggle');
+        const removmenu = document.querySelector('.menu-top-mobile-active');
+        function remove() {
+            menutoggled.classList.toggle('active');
+            removmenu.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
